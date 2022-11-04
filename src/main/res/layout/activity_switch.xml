@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".switchActivity"
+    android:padding="5dp"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="Switch开关"
+            tools:ignore="Suspicious0dp" />
+   <Switch
+       android:id="@+id/sw_status"
+       android:layout_width="80dp"
+       android:layout_height="30dp"
+       android:layout_gravity="end"
+       android:padding="5dp"
+       />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="啦啦啦啦啦啦啦啦"/>
+
+</LinearLayout>

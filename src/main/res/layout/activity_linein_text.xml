@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".lineinTextActivity">
+    <TextView
+        android:id="@+id/tv_111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="javajavajavajavajavajavajava我可以精通Java！！！！！"
+        android:textAllCaps="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_222"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:text="电话为13900008888,拍哦"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_333"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:tooltipText="alallalalaallallal"
+        android:paddingBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="@dimen/cardview_compat_inset_shadow"
+        android:background="@drawable/ic_launcher_background"
+        android:shadowColor="#ffddee"
+        android:text="带框的文本"
+        android:textSize="50dp"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        />
+
+
+</LinearLayout>

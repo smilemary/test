@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Simpleimage"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮1"
+        android:textSize="17dp" />
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮2"
+        android:textSize="17dp" />
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮3"
+        android:textSize="17dp" />
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:src="@mipmap/image111"
+        android:scaleType="fitCenter"/>
+    <ZoomButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/btn_minus"
+        />
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="#00f"
+        android:layout_margin="10dp"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tooltipText="nihao"/>
+</LinearLayout>
